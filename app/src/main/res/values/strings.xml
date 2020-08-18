@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SoberTimer</string>
+    <string name="sobertimer">SoberTimer</string>
+    <string name="quantity">Quantity:</string>
+    <string name="concentration">Concentration:</string>
+    <string name="weight">Weight:</string>
+    <string name="go">Go~</string>
+    <string name="Result" />
+    <string name="result">Result</string>
+    <string name="ml">ml:</string>
+    <string name="concentrate">% :</string>
+    <string name="weight_kg">Weight(kg):</string>
+</resources>

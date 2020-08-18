@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F18904"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/sobertimer"
+        android:textColor="#36688D"
+        android:textSize="50sp" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#F18904"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tv_ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ml"
+            android:textColor="#36688D"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ml"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#36688D"
+            android:textSize="25sp"
+            tools:ignore="LabelFor,SmallSp"
+            android:autofillHints="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#F18904"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tv_concentration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/concentrate"
+            android:textColor="#36688D"
+            android:textSize="30sp"
+            tools:ignore="SmallSp" />
+        <EditText
+            android:id="@+id/alcoholic"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textColor="#36688D"
+            android:textSize="25sp"
+            tools:ignore="LabelFor,SmallSp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#F18904"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tv_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_kg"
+            android:textColor="#36688D"
+            android:textSize="30sp"
+            tools:ignore="SmallSp" />
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="@string/weight"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#36688D"
+            android:textSize="25sp"
+            tools:ignore="LabelFor,SmallSp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#F49F05"
+        android:text="@string/go"
+        android:textColor="#36688D"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="#36688D"
+        android:textSize="50sp"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
